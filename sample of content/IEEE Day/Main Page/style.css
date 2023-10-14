@@ -1,0 +1,19 @@
+.text {
+    margin: 30px;
+    font-family: sans-serif;
+    position: absolute;
+    height: 200px;
+    font-size: 3em;
+    color: #273786;
+}
+
+.ieee img {
+    width: 300px;
+}
+
+.ieee {
+    position: absolute;
+    width: 300px;
+    margin: 30px;
+    right: 0;
+}

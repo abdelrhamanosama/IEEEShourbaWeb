@@ -1,0 +1,143 @@
+:root {
+    --text-color : #ececec ;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(90deg,#4a7cc1,#061e76,#4a7cc1);
+}
+.stay {
+    position: relative;
+    width: 55%;
+    margin: auto;
+}
+.container {
+    position: absolute;
+    top: 660px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+  stroke: white;
+  animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+  stroke: white;
+  animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+  stroke: white;
+  animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+  stroke: white;
+  animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+  stroke: white;
+  animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+  100% {stroke-dashoffset: -35%;}
+}
+.typing-effect {
+    position: absolute;
+    width: 500px;
+    overflow: hidden;
+    border-right: .15em solid transparent;
+    white-space: nowrap;
+    margin: 0;
+    margin-left: 10px;
+    font-size: 2em;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    color: var(--text-color);
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+.logo {
+    position: absolute;
+    left: 45%;
+    top: 163px;
+    font-weight: 700;
+    color: #0152a1;
+}
+.img_1{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    height: 10%;
+    width : 30%;   
+    border-radius: 10px; 
+}
+.p-1{
+    font-size: 180%;
+    padding: 0 45px;
+}
+.table-1{
+    padding: 0 15px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 40px;
+}
+.hr{
+    padding: 0 30px;
+}
+.img_2, .img_3,.img_4{
+    height: 100px;
+    width:  100px;
+    padding: 0 30px;
+}
+.img_3{
+    padding: 0 215px;
+    padding-right: auto; 
+}
+.img_4{
+    width:  200px;   
+}
+.t-2{
+    font-size: 150%;
+}
+.c-1{
+    padding : 0 30px;
+    color: var(--text-color);
+}
+.c-2{
+    padding-left: 215px; ;
+    color: var(--text-color);
+}
+.c-3{
+    padding-left: 75px;
+    color: var(--text-color);
+}
